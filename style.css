@@ -1,0 +1,130 @@
+body {
+    font-family: Verdana;
+    margin: 0%;
+}
+
+header {
+    background-color: #FFD900;
+    padding: 30px 30px 30px 80px;
+    
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    
+}
+
+#Texto {
+    background-color: #514988;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#Texto h1 {
+    color: #F3C61F;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+#Texto h3 {
+    font-size:30px ;
+    padding-bottom: 30px;
+}
+#Texto p {
+    font-size: 18px;
+    -webkit-text-stroke: 1.3px rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5)
+}
+.text-shadow {
+    text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5)
+}
+
+/*CONTADOR*/
+
+
+#CoutDown {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    
+}
+
+.contador {
+    color: #514988;
+    font-size: 50px;
+    text-align: center;
+    margin: 5px
+}
+#video h3 {
+    color: #E33881;
+    font-size: 21px;
+    padding-left: 45px;
+    margin: 3px 0px 20px;
+    text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#video {
+    margin: 20px;
+}
+
+#arlequina {
+    width: 100%;
+    height: auto;
+}
+
+
+/*FOOTER*/
+footer {
+    padding: 10px 10px 30px 30px;
+}
+footer h3 {
+    color: #F3C61F;
+}
+
+#ingressos {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    
+}
+
+
+#ingressosBotao {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 48vw;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#ingressos img {
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    background-color: #514988;
+    height: 98px;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 30px;
+
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #372f6d;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 15px #1f1a3d;
+}
